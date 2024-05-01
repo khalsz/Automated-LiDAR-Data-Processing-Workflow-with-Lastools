@@ -31,8 +31,8 @@ class TestForestMectricsExtractor(unittest.TestCase):
         """
         
         # Initialize valid and invalid lidar file paths
-        self.valid_lidar_dir = "C:/Users/khalsz/Documents/CarbonKeepers/lidar_canopy_metrics/lidar-forest-metrics-extractor/tests/valid_data/"
-        self.invalid_lidar_dir = "C:/Users/khalsz/Documents/CarbonKeepers/lidar_canopy_metrics/lidar-forest-metrics-extractor/tests/invalid_data/"
+        self.valid_lidar_dir = "C:/Users/khalsz/Documents/lidar_canopy_metrics/lidar-forest-metrics-extractor/tests/valid_data/"
+        self.invalid_lidar_dir = "C:/Users/khalsz/Documents/lidar_canopy_metrics/lidar-forest-metrics-extractor/tests/invalid_data/"
         
         # Check if file exist
         if not (os.path.isdir(self.valid_lidar_dir), os.path.isdir(self.invalid_lidar_dir)): 
