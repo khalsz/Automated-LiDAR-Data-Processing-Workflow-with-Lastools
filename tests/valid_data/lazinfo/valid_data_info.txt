@@ -1,0 +1,59 @@
+lasinfo (200101) report for 'C:/Users/khalsz/Documents/CarbonKeepers/lidar_canopy_metrics/lidar-forest-metrics-extractor/tests/valid_data/\valid_data.laz'
+reporting all LAS header entries:
+  file signature:             'LASF'
+  file source ID:             111
+  global_encoding:            1
+  project ID GUID data 1-4:   00000000-0000-0000-0000-000000000000
+  version major.minor:        1.2
+  system identifier:          ''
+  generating software:        'TerraScan'
+  file creation day/year:     142/2017
+  header size:                227
+  offset to point data:       323
+  number var. length records: 1
+  point data format:          1
+  point data record length:   28
+  number of point records:    9211
+  number of points by return: 9210 1 0 0 0
+  scale factor x y z:         0.01 0.01 0.01
+  offset x y z:               0 0 0
+  min x y z:                  343928.61 501850.06 265.14
+  max x y z:                  343999.99 501999.98 279.46
+variable length header record 1 of 1:
+  reserved             0
+  user ID              'LASF_Projection'
+  record ID            34735
+  length after header  40
+  description          'by LAStools of rapidlasso GmbH'
+    GeoKeyDirectoryTag version 1.1.0 number of keys 4
+      key 1024 tiff_tag_location 0 count 1 value_offset 1 - GTModelTypeGeoKey: ModelTypeProjected
+      key 3072 tiff_tag_location 0 count 1 value_offset 27700 - ProjectedCSTypeGeoKey: OSGB 1936 / British National Grid
+      key 3076 tiff_tag_location 0 count 1 value_offset 9001 - ProjLinearUnitsGeoKey: Linear_Meter
+      key 4099 tiff_tag_location 0 count 1 value_offset 9001 - VerticalUnitsGeoKey: Linear_Meter
+the header is followed by 2 user-defined bytes
+LASzip compression (version 3.0r1 c2 50000): POINT10 2 GPSTIME11 2
+reporting minimum and maximum for all LAS point record entries ...
+  X            34392861   34399999
+  Y            50185006   50199998
+  Z               26514      27946
+  intensity          33        233
+  return_number       1          2
+  number_of_returns   1          2
+  edge_of_flight_line 0          0
+  scan_direction_flag 0          1
+  classification      1          8
+  scan_angle_rank   -24        -21
+  user_data           0          0
+  point_source_ID     1          1
+  gps_time 176516028.127841 176516029.609535
+number of first returns:        9210
+number of intermediate returns: 0
+number of last returns:         9210
+number of single returns:       9209
+overview over number of returns of given pulse: 9209 2 0 0 0 0 0
+histogram of classification of points:
+             881  unclassified (1)
+            3715  ground (2)
+            2589  low vegetation (3)
+             618  medium vegetation (4)
+            1408  keypoint (8)

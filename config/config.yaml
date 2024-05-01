@@ -1,0 +1,28 @@
+parameter: 
+
+  # the -cutoff_z_above parameter used in the lasground tool command indicating the 
+  # cut-off limit to be included in the processed lidar daya
+  upper_z: 10
+
+  # the -p (percentile) parameter to use in the lascanopy tool command for extracting the specified 
+  # percentile info of the processed lidar data height
+  percentile: 
+    - 75 
+    - 99
+
+  # other statistical parameter to use in the lascanopy tool command for extracting the statistical 
+  # variables from processed lidar data height
+  # -kur: kurtosis; -std: standard deviation; -ske: skewness, -dns: canopy density.  
+  statistics: 
+    - '-kur' 
+    - ' -std' 
+    - ' -ske' 
+    - ' -dns' 
+    - ' -int_avg'
+
+config_path: 
+
+  # path to the lastools that would be used in performing the processing operation. 
+  lastool_folder: "C:/Users/khalsz/LAStools (2)/LAStools/bin"
+
+
