@@ -1,4 +1,4 @@
-# Automated LiDAR Data Processing Workflow with Lastools
+# LiDAR Data Processing Workflow with Lastools
 ## Overview
 This project aims to automate the processing of LiDAR (Light Detection and Ranging) data using Lastools, a suite of command-line tools for LiDAR data processing. The automated workflow includes various steps such as noise removal, ground classification, and canopy metric extraction, ultimately facilitating the analysis of forest canopy characteristics for biomass estimation.
 
